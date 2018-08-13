@@ -32,7 +32,7 @@ class Artist
     end
   end
 
-  def avg_experience
+  def self.avg_experience
     sum = 0
     Artist.all.each do |artist|
       sum += artist.years_active
@@ -40,4 +40,4 @@ class Artist
     sum.to_f / Artist.all.length
   end
 
-end #end of class 
+end #end of class

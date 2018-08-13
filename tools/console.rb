@@ -15,4 +15,4 @@ painting2 = Painting.new("Painting2", "Style2", artist2, gallery2)
 painting3 = Painting.new("Painting3", "Style3", artist3, gallery3)
 painting4 = Painting.new("Painting2", "Style1", artist2, gallery3)
 
-# binding.pry
+binding.pry
