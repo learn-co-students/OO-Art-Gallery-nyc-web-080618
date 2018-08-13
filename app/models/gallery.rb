@@ -7,7 +7,7 @@ class Gallery
   def initialize(name, city)
     @name = name
     @city = city
-    @@all < self
+    @@all << self
   end
 
   def self.all
@@ -40,7 +40,7 @@ class Gallery
     artists.each do |artist|
       sum += artist.years_active
     end
-    sum.to_f / artists.length 
+    sum.to_f / artists.length
   end
 
 end

@@ -2,7 +2,7 @@ class Painting
 
   attr_reader :title, :style, :artist, :gallery
 
-  @@all == []
+  @@all = []
 
   def initialize(title, style, artist, gallery)
     @title = title
@@ -24,4 +24,4 @@ class Painting
 end
 
 
-end ##end of class 
+end ##end of class
